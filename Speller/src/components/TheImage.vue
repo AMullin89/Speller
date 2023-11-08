@@ -4,7 +4,8 @@
 
 <script>
 export default {
-    props: ['word']
+    props: ['word'],
+
 }
 </script>
 

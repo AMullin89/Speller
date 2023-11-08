@@ -1,9 +1,10 @@
 <template>
-    <input type="text" maxlength="1"/>
+    <input type="text" maxlength="1" :value="letter"/>
 </template>
 
 <script>
 export default {
+    props: ['letter']
     
 }
 </script>
