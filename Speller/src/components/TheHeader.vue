@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>Speller</h1>
+        <img src="src/assets/superspeller-high-resolution-logo-transparent (1).png">
     </header>
 </template>
 
@@ -17,11 +17,13 @@ header {
     display: block;
     text-align: center;
     color: #FF6C22;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
 
-h1 {
-    font-size: 4rem;
-    margin-top: 0.5rem;
+img {
+    height: 8rem;
+    width: 18rem;
 }
 
 

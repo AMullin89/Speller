@@ -1,6 +1,6 @@
 <template>
     <div id="player-stats">    
-        <h2>Player Stats</h2>
+        <h2>{{ player.name }}'s Stats</h2>
         <p>Player Score: {{ player.score }}</p>
         <p>Player Lives: {{ player.lives }}</p>
     </div>
@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
     #player-stats {
-        background-color: #FF6C22;
+        background-color: #FF0000;
         padding: 1rem;
         border-radius: 5px;
         box-shadow: 3px 3px 3px black;

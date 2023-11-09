@@ -1,9 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-import BaseInput from './components/BaseInput.vue'
-import BaseButton from './components/BaseButton.vue'
-import BaseDialog from './components/BaseDialog.vue'
+import BaseInput from './components/UI/BaseInput.vue'
+import BaseButton from './components/UI/BaseButton.vue'
+import BaseDialog from './components/UI/BaseDialog.vue'
 
 const app = createApp(App)
 

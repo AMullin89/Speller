@@ -1,22 +1,19 @@
 <template>
     <div id="leaderboard">
         <h2>Leaderboard</h2>
-        <p>Evelyn: 100</p>
-        <p>Daddy: 80</p>
-        <p>Mummy: 60</p>
-        <p>Lucas: 30</p>
+        <p v-for="leader in leaders">{{ leader.name }}: {{ leader.score }}</p>
     </div>
 </template>
 
 <script>
 export default {
-    
+    props: ['leaders']
 }
 </script>
 
 <style scoped>
     #leaderboard {
-        background-color: #FF6C22;
+        background-color: #FF0000;
         padding: 1rem;
         border-radius: 5px;
         box-shadow: 3px 3px 3px black;

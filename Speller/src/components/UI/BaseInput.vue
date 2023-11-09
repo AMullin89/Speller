@@ -12,7 +12,7 @@ export default {
 <style scoped>
 input {
     border: none;
-    border-bottom: 4px solid #FF6C22;
+    border-bottom: 4px solid #FF0000;
     margin: 0 1rem;
     width: 6rem;
     height: 6rem;

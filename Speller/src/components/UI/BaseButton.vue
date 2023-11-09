@@ -16,7 +16,7 @@ export default {
         padding: 0.5rem;
         font-family: 'Roboto', sans-serif;
         width: 5rem;
-        background-color: #FF6C22;
+        background-color: #FF0000;
         border-radius: 5px;
         box-shadow: 1px 1px 1px black;
     }
